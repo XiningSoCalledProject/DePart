@@ -48,14 +48,13 @@ The full datasets used in the paper are **not included** in this repository. The
 ## Run Codes
 ### Compile
 ```text
-rm -rf build
 mkdir build && cd build
 cmake ..
 make -j2
 ```
 ### TPC-C Generation
 ```text
-./tpcc-generator 5 my_tpcc_input
+./tpcc-generator 1 my_tpcc_input
 ```
 ### Other Experiments' Test
 ```text
