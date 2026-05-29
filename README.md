@@ -45,6 +45,27 @@ The full datasets used in the paper are **not included** in this repository. The
 └── README.md
 ```
 
+## Run Codes
+### Compile
+```text
+rm -rf build
+mkdir build && cd build
+cmake ..
+make -j2
+```
+### TPC-C Generation
+```text
+./tpcc-generator 5 my_tpcc_input
+```
+### Other Experiments' Test
+```text
+Generate the uniform data distribution for Experiments $2-4$.
+Generate the data distribution with $Zipf = 1$'s data for Experiment $5$.
+./Servers_MultiRingORAM 8881
+./ORAM_Performance_100R
+```
+
+
 ## Experiments Results 
 On a TPC-C benchmark workload with 4 shards and $\epsilon = 0.1$, \sys achieves $\sim 3 \times$ improvement in transaction throughput over the existing state of the art.
 ![Privacy–Performance Trade-off Evaluation-100R](Testing/Experiment1/Test_Results/e2e_100R_v2.png)
