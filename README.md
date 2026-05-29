@@ -66,7 +66,7 @@ Generate the data distribution with $Zipf = 1$'s data for Experiment $5$.
 
 
 ## Experiments Results 
-On a TPC-C benchmark workload with 4 shards and $\epsilon = 0.1$, \sys achieves $\sim 3 \times$ improvement in transaction throughput over the existing state of the art.
+On a TPC-C benchmark workload with 4 shards and $\epsilon = 0.1$, Depart achieves $\sim 3 \times$ improvement in transaction throughput over the existing state of the art.
 ![Privacy–Performance Trade-off Evaluation-100R](Testing/Experiment1/Test_Results/e2e_100R_v2.png)
 ![Privacy–Performance Trade-off Evaluation-50R50W](Testing/Experiment1/Test_Results/e2e_50R50W_v2.png)
 ![Privacy–Performance Trade-off Evaluation-67R33W](Testing/Experiment1/Test_Results/e2e_67R33W_v2.png)
